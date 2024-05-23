@@ -1,0 +1,20 @@
+
+make tests/userprog/args-single.result VERBOSE=1
+
+--------------------------------------------------------------------------------
+
+Github token : (mirror 시 password) > 90일 주기로 바뀜, 바뀌면 갱신해야함
+
+ps. 제발 mirror 할 때 $ 뺐는지 확인하자
+
+Clone 후 checkout 및 branch 바꾸기 : (ku_doha가 branch name)
+git checkout ku_doha
+
+// 남의 repo 내 repo로 옮기기
+0. 해당 파일로 들어가기
+1. git remote -v
+2. git remote remove origin
+3. git remote add origin (https://github.com/Acacian/DHpintos.git)
+4. git remove -v
+5. git push origin main
+끝
